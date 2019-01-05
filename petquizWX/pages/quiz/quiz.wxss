@@ -1,0 +1,44 @@
+/* pages/quiz/quiz.wxss */
+/*城市信息*/
+.qustion {
+  background: #ddd; 
+  overflow: hidden; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  }
+.qustion text{
+  font-size: 16px; 
+  color: #666; 
+  text-align:center;
+  }
+
+.radio-group {
+  margin-top : 10px;
+}
+
+/* radio文本的点击效果  */
+.checkedt {
+   color: #40E0D0;
+   border: #40E0D0 1px solid;
+   border-radius: 4px;
+   font-size: 14px;
+   padding: 3px 18px;
+}
+
+/* 
+   radio文本的默认效果  
+   注意点：组件本身的高度不能高于组件所在行的行高，否则会发现组件的好似被切割成2块或多块了
+*/
+.normalt {
+   color: #666666;
+   border: #e6e6e6 1px solid;
+   border-radius: 4px;
+   font-size: 14px;
+   padding: 3px 18px;
+}
+
+.radioLabel {
+  display: flex;
+  margin-top : 10px;
+}

@@ -1,0 +1,16 @@
+<!--pages/quiz/quiz.wxml-->
+<view class="container">
+  <view class="qustion">
+    <text>{{question}}</text>
+  </view>
+
+
+  <radio-group class="radio-group" bindchange="radioChange">
+  <label class="radioLabel" wx:for="{{options}}">
+    <radio value="{{item.value}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+  </radio-group>
+</view>
+
+
+

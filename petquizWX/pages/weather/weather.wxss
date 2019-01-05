@@ -1,0 +1,28 @@
+/**weather.wxss**/
+
+/*城市信息*/
+.city {padding: 3% 5%; background: #ddd; overflow: hidden;}
+.city .dwicon{ width: 30rpx; height: 30rpx; float: left; margin: 5px;}
+.city text{font-size: 16px; color: #666; float: left;}
+.city .zbicon{ width: 30rpx; height: 30rpx; float: right;margin: 8px 5px;}
+.city .update{ font-size: 12px; float: right; width: 110px;}
+
+/*天气预报*/
+.weather{overflow: hidden;background: #cef;color: #58b; padding: 5%; }
+.weather .section{ float: left; width: 100px; height: 100px; display: block; }
+.weather .aside{ float: right; width:40%; margin-top: 5%; font-size: 12px; }
+.weather .aside .temperature{ font-size: 36px; display: block;}
+.weather .other{ clear:both; padding-top: 5%; display: flex; }
+.weather .other view{ flex:1; text-align: center; }
+.weather .other .border_r{ border-right: solid 1px #bbd; }
+.weather .other .title{font-size: 12px; color: #bbd; }
+.weather .other .info{ display: block; padding-top: 5%; }
+
+/*生活指数*/
+.suggestion{ margin-top: 5%;}
+.suggestion .title{ display: block; padding: 3% 5%; background: #58b; color: #fff;}
+.suggestion .list{ display: flex; font-size: 12px; margin-top: 1px; }
+.suggestion .list_l{ flex: 1; text-align: center; background: #cef; color: #bbd; padding: 8px;}
+.suggestion .list_l image{ width:30px; height: 30px; display: block; margin: 0 auto;}
+.suggestion .list_r{ flex: 4; background: #eee; padding: 8px; color: #aaa;}
+.suggestion .list_t{ font-size: 14px; display: block; margin-bottom: 5px; color: #333;}
